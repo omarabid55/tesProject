@@ -1,0 +1,16 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] TwoferTest:
+[info] HelloWorldTest:
+[info] - no name given
+[info] - verify Hello, World is OK!
+[info] - a name given
+[info] - another name given
+[info] Run completed in 187 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 0 s, completed 12 mars 2021 00:40:19
+[debug] > Exec(idea-shell, None, None)

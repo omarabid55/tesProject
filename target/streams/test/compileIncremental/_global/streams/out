@@ -1,0 +1,41 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 2 products, 2 sources, 3 libraries
+[debug] current source = Set(${BASE}/src/test/scala/HelloWorldTest.scala, ${BASE}/src/test/scala/LeapTest.scala, ${BASE}/src/test/scala/TwoFerTest.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/test/scala/LeapTest.scala), removed = Set(), changed = Set(${BASE}/src/test/scala/TwoFerTest.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/test-classes/TwoferTest.class),Set(),API Changes: Set(NamesChange(Twofer$,ModifiedNames(changes = UsedName(twofer$default$1,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(twofer,[Default]), UsedName(notify,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(eq,[Default]), UsedName(hashCode,[Default]), UsedName(Twofer,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default])))))
+[debug] The Twofer$ has the following regular definitions changed:
+[debug] 	UsedName(twofer$default$1,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(twofer,[Default]), UsedName(notify,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(eq,[Default]), UsedName(hashCode,[Default]), UsedName(Twofer,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Twofer$: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Twofer$.
+[debug] The following modified names cause invalidation of TwoferTest: Set(UsedName(twofer$default$1,[Default]), UsedName(twofer,[Default]), UsedName(Twofer,[Default]))
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/test/scala/LeapTest.scala)
+[debug] 	modified: Set(${BASE}/src/test/scala/TwoFerTest.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/test-classes/TwoferTest.class)
+[debug] External API changes: API Changes: Set(NamesChange(Twofer$,ModifiedNames(changes = UsedName(twofer$default$1,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(twofer,[Default]), UsedName(notify,[Default]), UsedName(==,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(eq,[Default]), UsedName(hashCode,[Default]), UsedName(Twofer,[Default]), UsedName(asInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]))))
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(TwoferTest)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/test/scala/TwoFerTest.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set(TwoferTest)
+[debug] All initially invalidated classes: Set(TwoferTest)
+[debug] All initially invalidated sources:Set(${BASE}/src/test/scala/LeapTest.scala, ${BASE}/src/test/scala/TwoFerTest.scala)
+[debug] Initial set of included nodes: TwoferTest
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\test-classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.4:compile for Scala 2.12.6
+[debug] [zinc] Running cached compiler 2ef0e91d for Scala compiler version 2.12.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.6\scala-library-2.12.6.jar
+[debug] 	-classpath
+[debug] 	C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\test-classes;C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\classes;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.12\3.0.8\scalatest_2.12-3.0.8.jar;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.12\3.0.8\scalactic_2.12-3.0.8.jar;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.6\scala-reflect-2.12.6.jar;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.2.0\scala-xml_2.12-1.2.0.jar
+[debug] Scala compilation took 1.6204725 s
+[info] done compiling
