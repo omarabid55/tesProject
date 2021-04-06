@@ -1,0 +1,33 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 4 products, 2 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/HelloWorld.scala, ${BASE}/src/main/scala/Leap.scala, ${BASE}/src/main/scala/TwoFer.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Leap.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/TwoFer.scala), unmodified = ...),Set(${BASE}/target/scala-2.12/classes/Twofer$.class, ${BASE}/target/scala-2.12/classes/Twofer.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/main/scala/Leap.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/TwoFer.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.12/classes/Twofer$.class, ${BASE}/target/scala-2.12/classes/Twofer.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Twofer)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/TwoFer.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Twofer)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Leap.scala, ${BASE}/src/main/scala/TwoFer.scala)
+[debug] Initial set of included nodes: Twofer
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.4.4:compile for Scala 2.12.6
+[debug] [zinc] Running cached compiler 6d4f5cba for Scala compiler version 2.12.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes;C:\Users\lansrod\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.6\scala-library-2.12.6.jar
+[debug] 	-classpath
+[debug] 	C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\classes
+[debug] Scala compilation took 2.3237585 s
+[info] done compiling

@@ -1,0 +1,14 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lansrod\IdeaProjects\exercism\target\scala-2.12\test-classes ...
+[info] done compiling
+[info] HelloWorldTest:
+[info] - verify Hello, World is OK!
+[info] Run completed in 156 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 1 s, completed 11 mars 2021 23:09:54
+[debug] > Exec(idea-shell, None, None)

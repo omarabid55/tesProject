@@ -1,0 +1,23 @@
+[debug] Running TaskDef(HelloWorldTest, org.scalatest.tools.Framework$$anon$1@4b4c131, false, [SuiteSelector])
+[debug] Running TaskDef(TwoFerTest, org.scalatest.tools.Framework$$anon$1@4b4c131, false, [SuiteSelector])
+[debug] Running TaskDef(LeapTest, org.scalatest.tools.Framework$$anon$1@4b4c131, false, [SuiteSelector])
+[info] HelloWorldTest:
+[info] - verify Hello, World is OK!
+[info] TwoFerTest:
+[info] - no name given
+[info] - a name given
+[info] - another name given (pending)
+[info] LeapTest:
+[info] - check a year not divisible by 4
+[info] - check a year divisible only by 4
+[info] - check a year divisible by 400
+[info] - check a year divisible by 100 but not 400
+[info] Run completed in 313 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 3, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 1
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	LeapTest
+[debug] 	HelloWorldTest
+[debug] 	TwoFerTest
