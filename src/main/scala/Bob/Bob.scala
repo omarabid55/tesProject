@@ -11,7 +11,7 @@ object Bob {
 
   def yelling(x: String): Boolean = {
     x == x.toUpperCase()
-  }
+    }
 
   def isQuestion(x: String): Boolean = {
     x.endsWith("?")
